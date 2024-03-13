@@ -1,8 +1,8 @@
 {
-  "manifest_version": 2,
+  "manifest_version": 1,
   "name": "Phanpy as a Sidebar",
   "description": "Displays a sidebar that lets you connect to Mastodon using Phanpy.",
-  "version": "2.2",
+  "version": "0.1",
   "applications": {
     "gecko": {
       "strict_min_version": "2024.03.12.e73ae56"
