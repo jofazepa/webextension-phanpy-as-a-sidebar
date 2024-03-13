@@ -1,15 +1,15 @@
 browser.menus.create({
-  id: "reload-pinafore",
-  title: "Reload Pinafore",
-  documentUrlPatterns: ["https://pinafore.social/*"]
+  id: "reload-phanpy",
+  title: "Reload Phanpy",
+  documentUrlPatterns: ["https://phanpy.social/*"]
 });
 
 function reloadSidebar() {
-  browser.sidebarAction.setPanel({ panel: "https://pinafore.social" });
+  browser.sidebarAction.setPanel({ panel: "https://phanpy.social" });
 }
 
 browser.menus.onClicked.addListener(function (info, tab) {
-  if (info.menuItemId == "reload-pinafore") {
+  if (info.menuItemId == "reload-phanpy") {
     browser.sidebarAction.getPanel({}).then(reloadSidebar)
   }
 });
