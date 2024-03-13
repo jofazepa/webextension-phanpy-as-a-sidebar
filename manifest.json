@@ -3,14 +3,11 @@
   "name": "Phanpy as a Sidebar",
   "description": "Displays a sidebar that lets you connect to Mastodon using Phanpy.",
   "version": "0.1",
-  "applications": {
-    "gecko": {
-      "strict_min_version": "54.0a1"
-    }
-  },
+  
   "icons": {
-    "512": "icons/icon512.png"
+    "48": "icons/icon48.png"
   },
+  
   "commands": {
     "_execute_sidebar_action": {
       "suggested_key": {
@@ -19,6 +16,7 @@
       "description": "Opens and closes Phanpy sidebar"
     }
   },
+  
   "sidebar_action": {
     "default_icon": {
       "512": "icons/icon512.png"
@@ -26,11 +24,13 @@
     "default_title": "Mastodon",
     "default_panel": "index.html"
   },
+  
   "background": {
     "scripts": [
       "background.js"
     ]
   },
+  
   "permissions": [
     "<all_urls>",
     "storage",
