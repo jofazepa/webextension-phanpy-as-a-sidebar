@@ -1,6 +1,6 @@
 # Mastodon as a Sidebar
 
-**Work in progress** forked from [webextension-mastodon-as-a-sidebar][https://github.com/soapdog/webextension-mastodon-as-a-sidebar]
+**Work in progress** forked from [webextension-mastodon-as-a-sidebar](https://github.com/soapdog/webextension-mastodon-as-a-sidebar).
 
 ## What it does
 
