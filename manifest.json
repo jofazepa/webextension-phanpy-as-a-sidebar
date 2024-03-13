@@ -5,7 +5,7 @@
   "version": "0.1",
   "applications": {
     "gecko": {
-      "strict_min_version": "2024.03.12.e73ae56"
+      "strict_min_version": "78"
     }
   },
   "icons": {
