@@ -14,11 +14,30 @@
     "512": "icons/icon512.png"
   },
   
+  "commands": {
+    "_execute_sidebar_action": {
+      "suggested_key": {
+        "default": "Alt+Shift+M"
+      },
+      "description": "Opens and closes Mastodon sidebar"
+    }
+  },
+  
 "sidebar_action": {
   "default_title": "Phanpy",
   "default_panel": "index.html",
   "default_icon": "icons/icon48.png"
 },
+
+  "background": {
+    "scripts": [
+      "background.js"
+    ]
+  },
   
-  "permissions": ["<all_urls>", "storage", "menus"]
+  "permissions": [
+    "<all_urls>",
+    "storage",
+    "menus"
+  ]
 }
